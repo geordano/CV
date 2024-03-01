@@ -1,0 +1,93 @@
+h1{
+    color: rgb(197, 197, 237);
+}
+
+body,menu{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    /*--background-image: url(fondonegro.jpeg);*/
+    background-position: upleft;
+    background-repeat: round;
+    /*background-size: ;
+    background-attachment:;*/
+    background-color: black;
+    color:white;    
+}
+
+li{
+    float:left;
+    display: flex;
+    justify-content:space-around;
+}
+
+menu{
+    background-color: green;
+    color:white;
+    line-height: 50px;
+    display: flow-root;
+    width: 100%;
+}
+
+menu ul{
+    margin: 0px;
+}
+
+menu li{
+    display: float;
+    margin-right: 20px;
+    padding: 1px;
+}
+
+/*.clearfix::after{ *Clear fix es una forma de mostar las imágenes flotantes similar a display: flowtroot, pero para compatibilidad con navegadores antiguos*
+    content: "";
+    clear:both;
+    display: table;
+}*/
+
+section{
+    border: solid 1px black;
+    display: flow-root;
+}
+
+img{
+    float: left;
+}
+
+.features{
+    background-color: green;
+    display: flow-root; /*Para mostar el color de fondo en el elemento padre features*/
+}
+
+p{
+    float: left; /*Para que los párrafos floten*/
+    width: 33%;
+}
+
+.menulinea{
+    display:flex;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    justify-content:space-around;
+    background-color:black;
+    padding: 10px 0;
+}
+
+
+#nombre{
+    color:brown;
+}
+
+.rol{
+    color: green;
+}
+
+.borderbox{
+    border: solid 1px white;
+    margin: 50px;
+    padding: 20px;
+}
